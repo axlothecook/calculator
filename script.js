@@ -36,3 +36,21 @@
 // }while(number != 0);
 
 
+
+//first functions: add | substract | multiply | divide
+
+let addition = function(num1, num2){
+    return num1 + num2;
+};
+
+let multiply = function(num1, num2){
+    return num1 * num2;
+};
+
+let substraction = function(num1, num2){
+    return num1 - num2;
+};
+
+let division = function(num1, num2){
+    return num1 / num2;
+};
