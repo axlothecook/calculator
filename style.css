@@ -2,7 +2,95 @@ body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    display: flexbox;
+    display: flex;
+    flex-flow: column wrap;
     background-color: #252432;
-    color: white;
 }
+
+.title{
+    margin: 0 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 220px;
+    color: #323136;
+}
+
+.title a{
+    color: #323136;
+    text-decoration: none;
+}
+
+.link{
+    text-align: center;
+}
+
+.link a{
+    font-weight: bold;
+    font-size: 16px;
+    color: #323136;
+}
+
+.parent-container{
+    width: 420px;
+    height: 590px;
+    margin: 50px auto;
+    background-color: #bebdc2;
+    border: 3px solid #141416;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.screen-container{
+    width: 380px;
+    height: 150px;
+    margin: 0px auto;
+}
+
+.btn-container{
+    width: 390px;
+    display: flex;
+    margin: 20px auto;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#screen{
+    width: inherit;
+    height: inherit;
+    background-color: #fff;
+    border: 3px solid black;
+    border-radius: 5px;
+    font-size: 30px;
+    text-align: right;
+}
+
+button{
+    padding: 10px 35px;
+    border-radius: 10px;
+    font-size: 25px;
+    text-align: center;
+    flex: 1;
+}
+
+.backspace{flex-grow: 7;}
+
+.numbtn{background-color: #3c4043; border: 1px solid #3c4043;}
+
+.numbtn:hover{background-color: #4b5053;}
+.numbtn:active{background-color: #4b5053; border-color: #ccc;}
+
+.ready-btn{background-color: #8ab4f8; border: 1px solid #8ab4f8;}
+.ready-btn:hover{background-color: #91bbff;}
+.ready-btn:active{background-color: #91bbff;border-color: #ccc;}
+
+.operator, .clear-btn{background-color: #5f6368; border: 1px solid #5f6368;}
+.operator:hover, .clear-btn:hover{background-color: #6f747a;}
+.operator:active, .clear-btn:active{background-color: #5f6368; border-color: #ccc;}
+
+a:hover{color: black;}
+a:active{color: #444349; text-decoration: none;}
