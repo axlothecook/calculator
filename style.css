@@ -88,9 +88,9 @@ button{
 .ready-btn:hover{background-color: #91bbff;}
 .ready-btn:active{background-color: #91bbff;border-color: #ccc;}
 
-.operator, .clear-btn{background-color: #5f6368; border: 1px solid #5f6368;}
-.operator:hover, .clear-btn:hover{background-color: #6f747a;}
-.operator:active, .clear-btn:active{background-color: #5f6368; border-color: #ccc;}
+.operator{background-color: #5f6368; border: 1px solid #5f6368;}
+.operator:hover{background-color: #6f747a;}
+.operator:active{background-color: #5f6368; border-color: #ccc;}
 
 a:hover{color: black;}
 a:active{color: #444349; text-decoration: none;}
